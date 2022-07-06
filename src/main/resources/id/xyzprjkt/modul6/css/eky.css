@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+.root {
+    -fx-font-family: "Space Grotesk", sans-serif;
+}
+
+#home-container {
+    -fx-background-image: url("https://compai.pub/v1/png/b03b0ea36aa3238f771ebbab061141dad8bd9fca8122b47cd7631e620d0680cb");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+#title-container {
+    -fx-min-width: 640px;
+    -fx-min-height: 720px;
+    -fx-padding: 0 0 0 97px;
+    -fx-alignment: center-left;
+    -fx-vgap: 2em;
+}
+
+#home-title {
+    -fx-font-size: 4.5em;
+    -fx-font-weight: 700;
+    -fx-text-fill: #1A1A1A;
+}
+
+#home-text {
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #7C7C7C;
+    -fx-font-weight: 700;
+}
+
+#start-btn {
+    -fx-padding: .75em 2em;
+    -fx-background-color: #737CE3;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+#img-container {
+    -fx-min-width: 640px;
+    -fx-min-height: 720px;
+}
+
+#form-container {
+    -fx-background-image: url("https://compai.pub/v1/png/4d351e67a3c11576baa1f2ce24a94ed3f4a97a4c3a3e431a14deeaa334ddf17d");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+#table-container {
+    -fx-min-width: 1280px;
+    -fx-min-height: 530px;
+    -fx-padding: 3em 97px 0 97px;
+    -fx-vgap: 1.5em;
+}
+
+#form-title {
+    -fx-font-size: 2em;
+    -fx-font-weight: 700;
+    -fx-text-fill: #737CE3;
+}
+
+#table-view {
+    -fx-background-color: #00000030;
+}
+
+#col {
+    -fx-pref-width: 217px;
+    -fx-background-color: #00000030;
+}
+
+#field-container {
+    -fx-min-width: 1280px;
+    -fx-min-height: 190px;
+    -fx-padding: 0 0 0 97px;
+    -fx-alignment: center-left;
+    -fx-vgap: 1em;
+    -fx-hgap: 1em;
+}
+
+#input {
+    -fx-padding: .75em .75em;
+    -fx-background-color: #00000030;
+    -fx-background-radius: 0;
+    -fx-border-color: #00000030;
+    -fx-prompt-text-fill: #1A1A1A;
+}
+
+#input-btn {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: .75em 2em;
+    -fx-font-weight: 700;
+    -fx-text-fill: #737CE3;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-color: #FFFFFF;
+}
+
+#back-btn {
+    -fx-background-color: #737CE3;
+    -fx-padding: .75em 2em;
+    -fx-font-weight: 700;
+    -fx-text-fill: #FFFFFF;
+    -fx-cursor: hand;
+}
